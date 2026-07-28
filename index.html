@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The personal portfolio of Areesha Zubair, Computer Science student." />
+    <title>Areesha Zubair — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Areesha Zubair home">AZ<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+        <span class="toggle-icon" aria-hidden="true">☾</span>
+        <span class="toggle-text">Dark</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Computer Science Student</p>
+          <h1>Building ideas<br />into <em>impact.</em></h1>
+          <p class="hero-description">Hi, I’m <strong>Areesha Zubair</strong> — a third-year Computer Science student who enjoys turning curious questions into thoughtful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="text-link" href="#contact">Let’s connect <span>→</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-card">
+            <span class="card-label">CURRENTLY LEARNING</span>
+            <span class="card-tech">React <i>+</i> Node.js</span>
+            <div class="code-lines"><b></b><b></b><b></b><b></b></div>
+          </div>
+          <div class="floating-dot dot-a"></div>
+          <div class="floating-dot dot-b"></div>
+          <div class="pixel-grid"></div>
+        </div>
+        <p class="scroll-note">SCROLL TO DISCOVER <span>↓</span></p>
+      </section>
+
+      <section class="about section" id="about">
+        <p class="section-number">01 / ABOUT ME</p>
+        <div class="about-grid">
+          <h2 class="reveal">Curious mind.<br />Creative <em>builder.</em></h2>
+          <div class="about-content reveal">
+            <p>I’m currently in my sixth semester of a Bachelor’s degree in Computer Science. I love the balance of logic and creativity that technology offers — from working with data to crafting interfaces people enjoy using.</p>
+            <p>My goal is simple: keep learning, build meaningful things, and grow into a developer who solves real problems with care.</p>
+            <div class="quick-facts">
+              <div><span>YEAR</span><strong>Third year</strong></div>
+              <div><span>FOCUS</span><strong>Full-stack &amp; data</strong></div>
+              <div><span>STATUS</span><strong>Open to learn</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <p class="section-number">02 / TOOLKIT</p>
+        <div class="section-heading reveal">
+          <h2>The tools I use<br />to make things <em>work.</em></h2>
+          <p>A growing toolkit for creating, analyzing, and automating.</p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-group reveal">
+            <span class="skill-index">01</span><h3>Languages</h3>
+            <div class="tags"><span>Python</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+          </article>
+          <article class="skill-group reveal">
+            <span class="skill-index">02</span><h3>Data &amp; Analysis</h3>
+            <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Power BI</span><span>MS Office</span></div>
+          </article>
+          <article class="skill-group reveal">
+            <span class="skill-index">03</span><h3>In Progress</h3>
+            <div class="tags accent-tags"><span>React</span><span>Node.js</span><span>n8n</span></div>
+          </article>
+          <article class="skill-group reveal">
+            <span class="skill-index">04</span><h3>Design &amp; Prototyping</h3>
+            <div class="tags"><span>Figma</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="projects-top">
+          <p class="section-number">03 / SELECTED WORK</p>
+          <a class="text-link" href="#contact">Have an idea? <span>→</span></a>
+        </div>
+        <h2 class="reveal">A few things I’ve<br /><em>brought to life.</em></h2>
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-no">01</div>
+            <div class="project-visual hangman"><span>H</span><span>A</span><span>N</span><span>G</span><span>M</span><span>A</span><span>N</span></div>
+            <div class="project-info"><p class="project-type">PYTHON · GAME LOGIC</p><h3>Hangman</h3><p>A classic word-guessing game built around clean game logic, user interaction, and a little suspense.</p></div>
+            <span class="project-arrow">↗</span>
+          </article>
+          <article class="project reveal">
+            <div class="project-no">02</div>
+            <div class="project-visual jarvis"><div class="jarvis-ring"></div><span>J</span><small>LISTENING...</small></div>
+            <div class="project-info"><p class="project-type">PYTHON · AUTOMATION</p><h3>Jarvis AI Assistant</h3><p>A voice-enabled assistant designed to make everyday digital tasks feel more natural and hands-free.</p></div>
+            <span class="project-arrow">↗</span>
+          </article>
+          <article class="project reveal">
+            <div class="project-no">03</div>
+            <div class="project-visual plagiarism"><span class="scan-line"></span><strong>98<span>%</span></strong><small>ORIGINAL</small></div>
+            <div class="project-info"><p class="project-type">PYTHON · TEXT ANALYSIS</p><h3>Plagiarism Detector</h3><p>A text comparison tool that explores similarity detection and promotes original academic work.</p></div>
+            <span class="project-arrow">↗</span>
+          </article>
+          <article class="project reveal">
+            <div class="project-no">04</div>
+            <div class="project-visual weather"><span class="weather-sun">☀</span><strong>26°</strong><small>PARTLY SUNNY</small><span class="weather-cloud">☁</span></div>
+            <div class="project-info"><p class="project-type">JAVASCRIPT · API INTEGRATION</p><h3>Weather App</h3><p>A clean weather dashboard that turns live forecast data into an easy, at-a-glance daily view.</p></div>
+            <span class="project-arrow">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <p class="section-number">04 / CONTACT</p>
+        <div class="contact-grid">
+          <div class="contact-copy reveal">
+            <h2>Let’s make<br />something <em>good.</em></h2>
+            <p>Have a project, opportunity, or just want to say hello? I’d love to hear from you.</p>
+            <a class="email-link" href="mailto:areesha@example.com">areeshazubair6@gmail.com <span>↗</span></a>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <label>Your name<input type="text" name="name" placeholder="What should I call you?" required /></label>
+            <label>Your email<input type="email" name="email" placeholder="you@example.com" required /></label>
+            <label>Your message<textarea name="message" placeholder="Tell me a little about it..." rows="4" required></textarea></label>
+            <button class="button primary" type="submit">Send message <span>↗</span></button>
+            <p class="form-message" id="formMessage" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#home">AZ<span>.</span></a><p>Designed &amp; built by Areesha Zubair · <span id="year"></span></p><a href="#home">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
