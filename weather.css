@@ -1,0 +1,1 @@
+.weather{background:#b8dff3;color:#17486b;flex-direction:column;gap:2px}.weather strong{font-size:38px;letter-spacing:-.08em;z-index:1}.weather small{font:500 8px "DM Mono";letter-spacing:.12em;z-index:1}.weather-sun{position:absolute;top:19px;right:26px;color:#f7a91d;font-size:27px}.weather-cloud{position:absolute;bottom:15px;left:24px;color:#eaf5fa;font-size:34px}
